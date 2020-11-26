@@ -9,9 +9,8 @@ const Hero = ({ title, slogan, off }) => {
             <div className="hero-text">
                 <h1 className="hero-title"> { title } </h1>
                 <div className="hr"></div>
-                <h3 className=""> { slogan } </h3>
+                <h3 className="slogan"> { slogan } </h3>
             </div>
-            <h2 className="off"> { off }</h2>
         </div>
         </>
     );
